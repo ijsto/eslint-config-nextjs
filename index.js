@@ -19,6 +19,7 @@ module.exports = {
     'no-console': 'warn',
     'no-nested-ternary': 0,
     camelcase: 0,
+    'react/self-closing-comp': 1,
     'react/jsx-filename-extension': [
       1,
       {
@@ -28,6 +29,7 @@ module.exports = {
     // __ REACT
     'react/prop-types': 0,
     'react/destructuring-assignment': 0,
+    'react/jsx-props-no-spreading': 0,
     // __ ACCESSIBILITY
     'jsx-a11y/label-has-for': 0,
     'jsx-a11y/anchor-is-valid': 0,
