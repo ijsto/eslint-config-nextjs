@@ -69,11 +69,21 @@ Paste in the follow to newly created `.eslintrc`:
 
 **For other editors, you can add the following to your `package.json` and run it manually:**
 
+Similarly you may use add this to VS Code and run it to iterate over the whole project (note that this may take some seconds or few minutes depending on the size of your project).
+
 ```json
 "scripts": {
   "lint": "eslint .",
-  "lint:fix": "eslint . --fix"
+  "lint:fix": "eslint . --fix",
 },
+```
+
+To run fix only React/Next.js files add the following:
+
+```json
+"scripts": { 
+  "lint:fix": "eslint --fix --ext .js,.jsx ."
+}
 ```
 
 ## That's all!
