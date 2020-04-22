@@ -7,6 +7,10 @@ This package is intended for use with VS Code, however, can be easily used with 
 
 # Installation
 
+### Installation consists of 2 steps:
+ - install ESLint config ([local](#local--per-project) or [globally](#global-install))
+ - [configure VS Code](#vs-code-setup)
+
 ## Local / Per Project
 
 1. Install eslint-config-nextjs:
