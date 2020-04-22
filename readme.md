@@ -10,7 +10,7 @@ This package is intended for use with VS Code, however, can be easily used with 
 ## Local / Per Project
 
 1. Install eslint-config-nextjs:
-   If you are using `yarn` to manage your packages, you can still use `npx` - it will automatically stop the installation and ask if you'd like to install with `yarn` just follow the instructions to use Yarn.
+>   If you are using `yarn` to manage your packages, you can still use `npx` - it will automatically stop the installation and ask if you'd like to install with `yarn` just follow the instructions to use Yarn.
    Make sure NOT to continue with `npx` IF you use Yarn.
 
 ```
