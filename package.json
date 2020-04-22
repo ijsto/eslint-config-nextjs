@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nextjs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ESLint and Prettier Config package for Next.js apps",
   "author": "Scott Agirs Neminskis <scott@ijs.to>",
   "repository": "git@github.com:ijsto/eslint-config-nextjs.git",
