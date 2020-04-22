@@ -10,6 +10,8 @@ This package is intended for use with VS Code, however, can be easily used with 
 ## Local / Per Project
 
 1. Install eslint-config-nextjs:
+   If you are using `yarn` to manage your packages, you can still use `npx` - it will automatically stop the installation and ask if you'd like to install with `yarn` just follow the instructions to use Yarn.
+   Make sure NOT to continue with `npx` IF you use Yarn.
 
 ```
 npx install-peerdeps --dev eslint-config-nextjs
@@ -81,7 +83,7 @@ Similarly you may use add this to VS Code and run it to iterate over the whole p
 To run fix only React/Next.js files add the following:
 
 ```json
-"scripts": { 
+"scripts": {
   "lint:fix": "eslint --fix --ext .js,.jsx ."
 }
 ```
