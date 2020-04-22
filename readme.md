@@ -40,7 +40,7 @@ You can avoid the need to do the previous step for each project and install this
 1. Install eslint-config-nextjs:
 
 ```
-npx install-peerdeps --dev eslint-config-nextjs
+npx install-peerdeps --global eslint-config-nextjs
 ```
 
 2. Create a global `.eslintrc` file on your computer:
