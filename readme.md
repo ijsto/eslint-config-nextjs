@@ -67,10 +67,12 @@ Paste in the follow to newly created `.eslintrc`:
       "source.fixAll.eslint": true
   },
   // Disable Prettier for JavaScript and React (but not for HTML, CSS or others in future)
-  "prettier.disableLanguages": [
-      "javascript",
-      "javascriptreact"
-  ],
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false
+  }
 ```
 
 **For other editors, you can add the following to your `package.json` and run it manually:**
