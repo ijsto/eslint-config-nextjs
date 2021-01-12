@@ -1,3 +1,10 @@
+## ⚠️ THIS PACKAGE IS NO LONGER ACTIVELY MAINTAINED.⚠️
+# Please consider https://github.com/ijsto/eslint-config instead
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
 # ESLint and Prettier configs for Next.js apps
 
 A set of awesome ESLint + Prettier configs.
